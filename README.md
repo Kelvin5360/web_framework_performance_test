@@ -1,3 +1,7 @@
+# Try to performance test all framework i interest to see which one i should use
+
+Very simple test now, just every framework have an endpoint that respond Hello World with a timestamp. I use cryload to fire 10,000 request and time the result.
+
 ## crystal_web
 ```
 ./cryload -s http://127.0.0.1:8080 -n 10000
