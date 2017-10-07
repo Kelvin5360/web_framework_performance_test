@@ -1,0 +1,13 @@
+name: crystal_web
+version: 0.1.0
+
+authors:
+  - kelvin5360@gmail.com <kelvin5360@gmail.com>
+
+targets:
+  crystal_web:
+    main: src/crystal_web.cr
+
+crystal: 0.23.1
+
+license: MIT
