@@ -6,6 +6,7 @@ Very simple test now, just every framework have an endpoint that respond Hello W
 | -------------                     |:-------------:            |
 | Crystal Pure HTTP                 | 0.098                     |
 | Crystal Kemal (Sinatra like)      | 0.104                     |
+| Plain Node HTTP                   | 0.113                     |
 | Express                           | 0.288                     |
 | Rack puma MRI                     | 0.113                     |
 | Rack puma JRuby                   | 0.117                     |
@@ -72,6 +73,35 @@ Request p/s: 9617.576313063673
 Non 2xx requests 10000
 Total request made: 10000
 Total time taken: 1.0397629999999973 seconds
+```
+
+## plain node http
+```
+./cryload -s http://127.0.0.1:3000 -n 10000
+Preparing to make it CRY for 10000 requests!
+Total request made: 1000
+Total request made: 2000
+Total request made: 3000
+Total request made: 4000
+Total request made: 5000
+Total request made: 6000
+Total request made: 7000
+Total request made: 8000
+Total request made: 9000
+Completed All Requests!
+-------------------------------
+
+Time taken per request:
+Min: 0.083 ms
+Max: 6.069 ms
+Average: 0.113 ms
+
+Requests Statistics:
+Request p/s: 8833.500875399788
+2xx requests 0
+Non 2xx requests 10000
+Total request made: 10000
+Total time taken: 1.132054000000019 seconds
 ```
 
 ## express_web
