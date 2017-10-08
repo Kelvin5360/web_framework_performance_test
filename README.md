@@ -2,6 +2,20 @@
 
 Very simple test now, just every framework have an endpoint that respond Hello World with a timestamp. I use cryload to fire 10,000 request and time the result. I ran cryload 3 times and I took the third result for the app to warm itself up.
 
+| Framework                         | Average per request (ms)  |
+| -------------                     |:-------------:            |
+| Crystal Pure HTTP                 | 0.098                     |
+| Crystal Kemal (Sinatra like)      | 0.104                     |
+| Express                           | 0.288                     |
+| Rack puma MRI                     | 0.113                     |
+| Rack puma JRuby                   | 0.117                     |
+| Roda MRI                          | 0.130                     |
+| Sinatra JRuby                     | 0.588                     |
+| Sinatra MRI                       | 0.473                     |
+| SpringBoot                        | 0.338                     |
+| SparkJava                         | 0.117                     |
+| Ratpack                           | 0.313                     |
+
 ## crystal_web
 ```
 ./cryload -s http://127.0.0.1:8080 -n 10000
