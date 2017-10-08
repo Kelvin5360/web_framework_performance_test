@@ -48,16 +48,16 @@ Completed All Requests!
 -------------------------------
 
 Time taken per request:
-Min: 0.111 ms
-Max: 5.832 ms
-Average: 0.195 ms
+Min: 0.075 ms
+Max: 4.206 ms
+Average: 0.104 ms
 
 Requests Statistics:
-Request p/s: 5137.40767436232
+Request p/s: 9617.576313063673
 2xx requests 0
 Non 2xx requests 10000
 Total request made: 10000
-Total time taken: 1.9465070000000047 seconds
+Total time taken: 1.0397629999999973 seconds
 ```
 
 ## express_web
