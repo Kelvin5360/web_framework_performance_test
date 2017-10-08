@@ -7,7 +7,7 @@ Very simple test now, just every framework have an endpoint that respond Hello W
 | Crystal Pure HTTP                 | 0.098                     |
 | Crystal Kemal (Sinatra like)      | 0.104                     |
 | Plain Node HTTP                   | 0.113                     |
-| Express                           | 0.288                     |
+| Express                           | 0.193                     |
 | Rack puma MRI                     | 0.113                     |
 | Rack puma JRuby                   | 0.117                     |
 | Roda MRI                          | 0.130                     |
@@ -121,16 +121,16 @@ Completed All Requests!
 -------------------------------
 
 Time taken per request:
-Min: 0.202 ms
-Max: 2.938 ms
-Average: 0.288 ms
+Min: 0.12 ms
+Max: 4.788 ms
+Average: 0.193 ms
 
 Requests Statistics:
-Request p/s: 3469.5116662329674
+Request p/s: 5175.361964815845
 2xx requests 0
 Non 2xx requests 10000
 Total request made: 10000
-Total time taken: 2.882250000000008 seconds
+Total time taken: 1.9322319999999904 seconds
 ```
 
 ## rack only puma
