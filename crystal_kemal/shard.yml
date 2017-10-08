@@ -1,0 +1,17 @@
+name: crystal_kemal
+version: 0.1.0
+
+authors:
+  - kelvin5360@gmail.com <kelvin5360@gmail.com>
+
+targets:
+  crystal_kemal:
+    main: src/crystal_kemal.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 0.23.1
+
+license: MIT

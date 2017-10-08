@@ -31,6 +31,35 @@ Total request made: 10000
 Total time taken: 0.9839900000000035 seconds
 ```
 
+## crystal_kemal
+```
+./cryload -s http://127.0.0.1:3000 -n 10000
+Preparing to make it CRY for 10000 requests!
+Total request made: 1000
+Total request made: 2000
+Total request made: 3000
+Total request made: 4000
+Total request made: 5000
+Total request made: 6000
+Total request made: 7000
+Total request made: 8000
+Total request made: 9000
+Completed All Requests!
+-------------------------------
+
+Time taken per request:
+Min: 0.111 ms
+Max: 5.832 ms
+Average: 0.195 ms
+
+Requests Statistics:
+Request p/s: 5137.40767436232
+2xx requests 0
+Non 2xx requests 10000
+Total request made: 10000
+Total time taken: 1.9465070000000047 seconds
+```
+
 ## express_web
 ```
 ./cryload -s http://127.0.0.1:3000 -n 10000
