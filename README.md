@@ -89,6 +89,35 @@ Total request made: 10000
 Total time taken: 2.882250000000008 seconds
 ```
 
+## rack only puma
+```
+./cryload -s http://127.0.0.1:9292 -n 10000
+Preparing to make it CRY for 10000 requests!
+Total request made: 1000
+Total request made: 2000
+Total request made: 3000
+Total request made: 4000
+Total request made: 5000
+Total request made: 6000
+Total request made: 7000
+Total request made: 8000
+Total request made: 9000
+Completed All Requests!
+-------------------------------
+
+Time taken per request:
+Min: 0.082 ms
+Max: 2.384 ms
+Average: 0.113 ms
+
+Requests Statistics:
+Request p/s: 8879.283477340345
+2xx requests 0
+Non 2xx requests 10000
+Total request made: 10000
+Total time taken: 1.1262170000000213 seconds
+```
+
 ## sinatra_web JRuby
 ```
 ./cryload -s http://127.0.0.1:4567 -n 10000
